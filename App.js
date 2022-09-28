@@ -77,7 +77,7 @@ export default class App extends Component {
       <View style={styles.container}>
         <Display value={this.state.displayValue} />
         <View style={styles.buttons}>
-          <Button label="AC" onClick={this.clearMemory} triple />
+          <Button label="AC" onClick={this.clearMemory} triple ac />
           <Button label="/" onClick={this.setOperation} operation />
           <Button label="7" onClick={this.addDigit} />
           <Button label="8" onClick={this.addDigit} />
