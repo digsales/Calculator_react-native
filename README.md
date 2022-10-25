@@ -2,7 +2,7 @@
 
 ### Setting up project
 
-    npx create-expo-app Calculator
+    npx create-expo-app calculator
     
 ### Initializing app
 
